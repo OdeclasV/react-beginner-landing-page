@@ -11,7 +11,9 @@ const Home = () => {
 			<NavBar />
 			<div className="container">
 				<Jumbotron />
-				<Cards />
+				<div className="card-deck d-flex m-4">
+					<Cards />
+				</div>
 			</div>
 			<Footer />
 		</div>
